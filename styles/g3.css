@@ -315,7 +315,7 @@ footer{
 }
 
 @media only screen and (max-width:576px) {
-    .nav-section,.Features-section, .sub-features-section, .some-facts, .Our-Sponspors-img, .sub-extra-section{
+    .nav-section, .features-section, .sub-features-section, .some-facts, .Our-Sponspors-img, .sub-extra-section{
         width: 100%;
         flex-direction: column;
     }
@@ -330,7 +330,7 @@ footer{
         font-size: 50px;
         font-weight: 700;
     }
-    .Features-img{
+    .features-img {
         grid-template-columns: repeat(1, 1fr);
     }
     .features-title br, .sub-features-title br, .text-description br, .some-facts-description br, .Our-Sponspors-description br{
@@ -381,6 +381,8 @@ footer{
     }
     .text-title br, .text-description br, .features-description br{
         display: none;
+    }.features-img {
+        grid-template-columns: repeat(2, 1fr);
     }
     .sub-features-section img{
         width: 100%;
