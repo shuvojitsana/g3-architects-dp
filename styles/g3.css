@@ -278,3 +278,50 @@ footer{
     padding: 25px 0 25px 0;
 }
 
+@media only screen and (max-width:576px) {
+    .nav-section,.Features-section, .sub-features-section, .some-facts, .Our-Sponspors-img{
+        width: 100%;
+        flex-direction: column;
+    }
+    .items li a{
+        padding-right: 10px;
+    }
+    .nav-section-title{
+        font-size: 38px;
+        font-weight: 700;
+    }
+    .text-title{
+        font-size: 50px;
+        font-weight: 700;
+    }
+    .Features-img{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .features-title br, .sub-features-title br, .text-description br, .some-facts-description br, .Our-Sponspors-description br{
+        display: none;
+    }
+    .sub-features-section img{
+        width: 100%;
+    }
+    .btn-box{
+        margin: 15px 0px 0px 0px;
+        margin-left: 28%;
+        padding: 10px 20px;
+    }
+    .btn-box h1{
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .btn-box p{
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .some-facts{
+        gap: 25px;
+    }
+    .Our-Sponspors-img{
+        align-items: center;
+        gap: 25px;
+    }
+    
+}
